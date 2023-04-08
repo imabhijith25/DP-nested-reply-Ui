@@ -1,0 +1,32 @@
+.reply {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 500;
+    color: hsl(238, 40%, 52%)
+}
+
+.reply img {
+    padding-right: 5px;
+}
+
+.Delete {
+    cursor: pointer;
+    color: hsl(358, 79%, 66%);
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.Delete img {
+    padding-right: 5px;
+}
+
+.submit {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    cursor: pointer;
+    height: 20px;
+}

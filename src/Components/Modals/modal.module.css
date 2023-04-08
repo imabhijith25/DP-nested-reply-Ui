@@ -1,0 +1,75 @@
+.modal {
+
+    position: fixed;
+
+    z-index: 1;
+
+    padding-top: 100px;
+
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    height: 100%;
+
+    overflow: auto;
+
+    background-color: rgb(0, 0, 0);
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.modalContent h3 {
+    font-family: 'rubik';
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.modalContent p {
+    color: hsl(0, 0%, 31%);
+    line-height: 20px;
+}
+
+.buttonArea {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    /* justify-content: space-between */
+}
+
+.buttonArea button {
+    width: 50%;
+    padding: 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+}
+
+.cancel {
+    background-color: hsl(230, 4%, 28%);
+}
+
+.delete {
+    background-color: hsl(358, 79%, 66%);
+}
+
+@media only screen and (max-width: 430px) {
+    .modalContent {
+        max-width: 350px;
+    }
+
+}

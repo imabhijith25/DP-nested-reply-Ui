@@ -1,0 +1,101 @@
+.card {
+    display: flex;
+    padding: 19px;
+    background-color: hsl(0, 0%, 100%);
+    column-gap: 16px;
+
+    /* width: 100%; */
+    /* width: 100%; */
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainComment {
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.commentDetail {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.commentDetail .p {
+    font-weight: 600;
+}
+
+.commentDetail .date {
+    color: hsl(228, 2%, 48%);
+}
+
+.name {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.name img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.commentDetail {
+    display: flex;
+    column-gap: 10px;
+}
+
+.comment {
+    margin-top: 10px;
+    color: hsl(228, 2%, 48%);
+    font-weight: 400;
+}
+
+.replyAndDelete {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.mobileView {
+    display: none;
+}
+
+.bar {
+    height: auto;
+    width: 5px;
+    border-radius: 5px;
+    background-color: hsl(239, 57%, 85%);
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 430px) {
+    .replyAndDelete {
+        display: none;
+    }
+
+    .like {
+        display: none
+    }
+
+    .mobileView {
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .replyAndDeleteMob {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .likeMob {
+        display: flex;
+
+    }
+
+}

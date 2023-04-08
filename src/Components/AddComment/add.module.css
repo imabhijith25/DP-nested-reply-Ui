@@ -1,0 +1,31 @@
+.card {
+    margin-top: 30px;
+    display: flex;
+    padding: 19px;
+    background-color: hsl(0, 0%, 100%);
+    column-gap: 16px;
+    max-width: 600px;
+    width: 100%;
+    /* width: 100%; */
+    border-radius: 5px;
+}
+
+.card img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+textarea {
+    flex-grow: 2;
+    border: 1px solid hsl(223, 19%, 93%);
+    resize: none;
+    height: 70px;
+    font-family: 'rubik';
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 430px) {}
